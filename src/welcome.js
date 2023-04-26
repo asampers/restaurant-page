@@ -3,7 +3,7 @@ import footer from './footer';
 
 const welcome = () => {
   const content = document.querySelector('#content');
-  content.classList.add('welcome');
+  //content.classList.add('welcome');
 
   if (!document.querySelector('nav')) {
     content.appendChild(nav());
@@ -13,6 +13,7 @@ const welcome = () => {
   welcome.classList.add('active');
   
   const container = document.createElement('div');
+  container.classList.add('container', 'welcome');
   const header = document.createElement('header');
   const headline = document.createElement('h1');
   headline.innerHTML = 'Français et Français';

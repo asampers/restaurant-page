@@ -4,33 +4,38 @@
 html,
 body {
   margin: 0px;
-  height: 100%;
-  
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  min-height: 100vh;
+  position:relative;
   background-color: rgb(15, 16, 17);
 }
 
 #content {
   color:whitesmoke;
-  background-repeat:no-repeat;
-  background-size:cover;
+  font-family: 'Homemade Apple', cursive;
 }
 
 .welcome {
-  font-family: 'Homemade Apple', cursive;
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./homepage.jpg');
+  height:93vh;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center 20%;
+}
+
+.about {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./about.jpg');
   height:100vh;
+  background-repeat:no-repeat;
+  background-size:cover;
   background-position: center 20%;
 }
 
 header {
-  text-align:center;
+  text-align: center;
 }
 
 h1 {
-  padding:1em;
+  padding: 1em;
   font-size: 3em;
 }
 
@@ -38,20 +43,15 @@ header p {
   font-size:2rem;
 }
 
-.text {
-  font-size:1.2em;
-}
-
 .container {
-  max-width: 800px;
-  color:whitesmoke;
-  text-align:center;
+  height:93vh;
+  text-align: center;
   margin:0 auto;
-  padding: 0 1em 7vh 1em;
 }
 
 .container h1 {
   max-width: 700px;
+  margin:0 auto;
 }
 
 nav {
@@ -103,6 +103,8 @@ footer {
   box-sizing:border-box;
 }
 
+
+
 @media (max-width:580px) {
   nav {
     width: 100%;
@@ -121,9 +123,5 @@ footer {
 
   .container {
     font-size: 15px;
-  }
-
-  .container p {
-    font-size: 1.3em;
   }
 }

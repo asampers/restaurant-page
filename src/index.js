@@ -1,7 +1,7 @@
 import './style.css';
 
  function component() {
-   const element = document.createElement('div');
+   const element = document.querySelector('#content');
 
   element.innerHTML = "This is a restaurant page!";
   element.classList.add('hello');
@@ -9,4 +9,4 @@ import './style.css';
    return element;
  }
 
- document.body.appendChild(component());
+ component();

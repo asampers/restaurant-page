@@ -1,12 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+
 html,
 body {
   margin: 0px;
   height: 100%;
-  background-image: url('./homepage.jpg');
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(15, 16, 17);
+}
+
+#content {
+  color:whitesmoke;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.welcome {
+  font-family: 'Homemade Apple', cursive;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./homepage.jpg');
+  height:100vh;
+  background-position: center 20%;
+}
+
+header {
+  text-align:center;
+}
+
+h1 {
+  padding:1em;
+  font-size: 3em;
+}
+
+header p {
+  font-size:2rem;
+}
+
+.text {
+  font-size:1.2em;
+}
+
+.container {
+  max-width: 800px;
+  color:whitesmoke;
+  text-align:center;
+  margin:0 auto;
+  padding: 0 1em 7vh 1em;
+}
+
+.container h1 {
+  max-width: 700px;
 }
 
 nav {
@@ -16,7 +61,7 @@ nav {
   display:flex;
   align-items:center;
   background-color: rgba(42, 44, 46, 0.671);
-  color: whitesmoke;
+  border-radius: 5px;
   border-bottom: 1px solid rgba(44, 43, 43, 0.74);
 }
 
@@ -28,9 +73,57 @@ nav button {
   font-size:1.3em;
   background:none;
   border:none;
-  color:white;
+  color: whitesmoke;;
 }
 
-#content {
-  
+nav button:hover {
+  color:rgba(246, 248, 253, 0.801);
+  transition: all 0.2s ease;
+  cursor:pointer;
+}
+
+.active {
+  border-radius:5px;
+  background-color:rgba(255,255,255,0.2);
+}
+
+footer {
+  height:7vh;
+  color:whitesmoke;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:absolute;
+  max-width:100%;
+  bottom:0;
+  left:0;
+  right:0;
+  text-align:center;
+  padding: 0 1em;
+  box-sizing:border-box;
+}
+
+@media (max-width:580px) {
+  nav {
+    width: 100%;
+    justify-content:center;
+  }
+
+  nav button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:440px) {
+  nav button {
+    font-size: 0.85rem;
+  }
+
+  .container {
+    font-size: 15px;
+  }
+
+  .container p {
+    font-size: 1.3em;
+  }
 }

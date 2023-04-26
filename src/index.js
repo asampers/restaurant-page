@@ -1,6 +1,7 @@
 import './style.css';
-import header from './header';
+import welcome from './welcome';
+
+welcome()
  
 
- const content = document.querySelector('#content');
- content.appendChild(header());
+ 

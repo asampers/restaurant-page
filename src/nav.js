@@ -1,5 +1,5 @@
-const header = () => {
-  const header = document.createElement('nav');
+const nav = () => {
+  const nav = document.createElement('nav');
   
   const welcome = document.createElement('button');
   welcome.innerHTML = 'Welcome';
@@ -17,12 +17,12 @@ const header = () => {
   contact.innerHTML = 'Contact';
   contact.id = 'contact';
 
-  header.appendChild(welcome);
-  header.appendChild(about);
-  header.appendChild(menu);
-  header.appendChild(contact);
+  nav.appendChild(welcome);
+  nav.appendChild(about);
+  nav.appendChild(menu);
+  nav.appendChild(contact);
   
-  return header;
+  return nav;
  };
 
- export default header;
+ export default nav;

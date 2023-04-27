@@ -128,6 +128,12 @@ footer {
   nav button {
     font-size: 1rem;
   }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }
 
 @media (max-width:440px) {
@@ -138,4 +144,6 @@ footer {
   .container {
     font-size: 15px;
   }
+
+
 }

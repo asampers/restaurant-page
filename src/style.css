@@ -15,11 +15,9 @@ body {
   font-family: 'Homemade Apple', cursive;
 }
 
-.welcome {
+.container.welcome {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./homepage.jpg');
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position: center 20%;
+  height: 94vh;
 }
 
 .about {
@@ -27,23 +25,14 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./about.jpg');
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position: center 20%;
 }
 
-.container.menu {
+.menu {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./menu.jpg');
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position: center 20%;
 }
 
 .contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./contact.jpg');
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position: center 20%;
 }
 
 .info {
@@ -75,6 +64,9 @@ header p {
   height:100vh;
   text-align: center;
   margin:0 auto;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center 20%;
 }
 
 .container h1 {

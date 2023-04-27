@@ -18,7 +18,6 @@ const about = () => {
 
   const content = document.querySelector('#content');
   let footer = document.querySelector('footer');
-  let nav = document.querySelector('nav');
   content.appendChild(container, footer);
 }
 

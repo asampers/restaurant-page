@@ -2,13 +2,13 @@ import nav from './nav';
 import footer from './footer';
 
 const welcome = () => {
-  const content = document.querySelector('#content');
-  //content.classList.add('welcome');
-
+  const body = document.querySelector('body');
   if (!document.querySelector('nav')) {
-    content.appendChild(nav());
+    body.appendChild(nav());
   }
 
+  const content = document.createElement('div');
+  content.id = 'content';
   const welcome = document.getElementById('welcome');
   welcome.classList.add('active');
   
@@ -25,6 +25,8 @@ const welcome = () => {
   header.appendChild(tagline);
 
   content.appendChild(container);
+
+  body.appendChild(content);
 
   if (!document.querySelector('footer')) {
     footer();

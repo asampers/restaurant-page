@@ -2,6 +2,7 @@ import './style.css';
 import welcome from './welcome';
 import about from './about';
 import menu from './menu';
+import contact from './contact';
 
 welcome();
 
@@ -23,5 +24,10 @@ menuBtn.onclick = () => {
   menu()
 }
  
+// contact tab
+const contactBtn = document.getElementById('contact');
+contactBtn.onclick = () => {
+  contact()
+} 
 
  

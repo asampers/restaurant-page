@@ -7,7 +7,6 @@ const menu = () => {
   const headline = document.createElement('h1');
   headline.innerHTML = 'Lots of good things to eat';
 
-
   const menu = document.createElement('div');
   menu.classList.add('menu-group');
   const items = [['Pasta', '€25', 'noodles, red sauce, garlic, basil'], 
@@ -42,9 +41,7 @@ const menu = () => {
   container.appendChild(menu);
 
   const content = document.querySelector('#content');
-  let footer = document.querySelector('footer');
-  let nav = document.querySelector('nav');
-  content.appendChild(container, footer);
+  content.appendChild(container);
 }
 
 export default menu;

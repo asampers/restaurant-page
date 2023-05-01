@@ -25,8 +25,7 @@ const contact = () => {
   container.appendChild(info);
 
   const content = document.querySelector('#content');
-  const footer = document.querySelector('footer');
-  content.appendChild(container, footer);
+  content.appendChild(container);
 }
 
 export default contact;

@@ -22,8 +22,7 @@ const about = () => {
   container.appendChild(hours);
 
   const content = document.querySelector('#content');
-  const footer = document.querySelector('footer');
-  content.appendChild(container, footer);
+  content.appendChild(container);
 }
 
 export default about;

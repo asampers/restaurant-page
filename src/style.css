@@ -15,9 +15,8 @@ body {
   font-family: 'Homemade Apple', cursive;
 }
 
-.container.welcome {
+.welcome {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./homepage.jpg');
-  height: 100vh;
 }
 
 .about {

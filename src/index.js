@@ -3,31 +3,36 @@ import welcome from './welcome';
 import about from './about';
 import menu from './menu';
 import contact from './contact';
+import clear from './clear';
 
 welcome();
 
 // welcome tab
 const welcomeBtn = document.getElementById('welcome');
 welcomeBtn.onclick = () => {
-
+  clear();
+  welcome();
 }
 
 // about tab
 const aboutBtn = document.getElementById('about');
 aboutBtn.onclick = () => {
-  about()
+  clear();
+  about();
 }
 
 // menu tab
 const menuBtn = document.getElementById('menu');
 menuBtn.onclick = () => {
-  menu()
+  clear();
+  menu();
 }
  
 // contact tab
 const contactBtn = document.getElementById('contact');
 contactBtn.onclick = () => {
-  contact()
+  clear();
+  contact();
 } 
 
  

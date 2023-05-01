@@ -1,6 +1,4 @@
 const menu = () => {
-  
-
   const menu = document.getElementById('menu');
   menu.classList.add('active');
 

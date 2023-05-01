@@ -17,7 +17,7 @@ body {
 
 .container.welcome {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./homepage.jpg');
-  height: 94vh;
+  height: 100vh;
 }
 
 .about {
@@ -75,16 +75,16 @@ header p {
 }
 
 nav {
-  position: sticky;
-  top: 0;
   max-width: 80%;
   height: 50px;
   margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
   display:flex;
   align-items:center;
   background-color: rgba(42, 44, 46, 0.671);
   border-radius: 5px;
-  border-bottom: 1px solid rgba(44, 43, 43, 0.74);
 }
 
 nav button {

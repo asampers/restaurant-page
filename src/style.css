@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 
-
 html,
 body {
   margin: 0px;
@@ -124,8 +123,6 @@ nav button:hover {
   flex-direction: column;
 }
 
-
-
 .menu-item-heading {
   display: flex;
   justify-content: center;
@@ -157,8 +154,6 @@ footer {
   box-sizing:border-box;
   text-shadow: 1px 1px .75px black;
 }
-
-
 
 @media (max-width:580px) {
   nav {

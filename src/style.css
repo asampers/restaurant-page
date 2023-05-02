@@ -175,6 +175,11 @@ footer {
     max-height: 500px;
     overflow: scroll;
   }
+
+  header p, .text {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 @media (max-width:440px) {
@@ -184,10 +189,5 @@ footer {
 
   .container {
     font-size: 15px;
-  }
-
-  header p, .text {
-    margin-left: 10px;
-    margin-right: 10px;
   }
 }

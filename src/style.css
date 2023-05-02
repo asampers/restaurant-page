@@ -185,4 +185,9 @@ footer {
   .container {
     font-size: 15px;
   }
+
+  header p, .text {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
